@@ -1,0 +1,55 @@
+#box2{ 
+    background-color:blue;
+}
+#yellow{
+    background-color: yellow;
+}
+/* div{
+    font-size: 30px;
+} */
+/* class用的 */
+/* .box{
+    font-size: 30px;
+} */
+/* class用的 只有第一個會動*/
+/* .one{
+    font-size: 30px;
+} */ 
+
+/* div中所有的p都會變 example 1234*/
+/* div p{
+    background-color: green;
+} */
+
+/* div下的第一個p會變 example 5*/
+/* div+p{
+    background-color: palegoldenrod;
+} */
+
+/* div裡面的才變 裡面的裡面不變 example12*/
+/* div > p{
+    background-color: indianred;
+} */
+
+/* div同一層的東西 example 56 */
+/* div~p{
+    background-color: aqua;
+} */
+
+a:link {
+    color: #FF0000;
+}
+  
+  /* visited link */
+a:visited {
+    color: #00FF00;
+}
+a:hover {
+    color: #FF00FF;
+}
+  
+  /* selected link */
+  /* 必須在 active(正在點他的時候) 之後！ */
+a:active {
+    color: #0000FF;
+}
